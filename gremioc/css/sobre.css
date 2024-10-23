@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+}
+body {
+    background-color: #A71313;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
+}
+
+p {
+    color: white;
+    text-align: left;
+    margin: 1vh 1vh 1vh 1vh;
+    font-size: 200%;
+}
+
+.borda {
+    border: 0.1vh;
+    border-style: solid;
+    border-color: white;
+    border-radius: 0.5vh;
+    width: 160vH;
+    margin: auto;
+    margin-bottom: 5vh;
+}
+
+.sobre {
+    background-color: #CFB645;
+    text-align: center;
+    line-height: 6.2vh;
+    color: white;
+    border-radius: 0.5vh;
+    border: 0.4vh solid #CFB645;
+    width: 51vh;
+    height: 6vh;
+    font-size: 2.5vh; 
+    margin: auto;
+    margin-top: 6vh; /* Precisa dimensionar depois que colocar  o header*/
+    margin-bottom: 2vh;
+    font-weight: 600;
+}
+#footer{
+    background-color: #CFB645;
+    color: #ffffff;
+    padding-left: 5%;
+    padding-bottom: 1%;
+    margin-top: 320px;
+}
+
+#direitos{
+    text-align: center;
+}
+
+#faixa{
+    width: 100%;
+    background-color: #a71313; 
+    padding: 1%;
+}
+
+#logo{
+    width: 5%;
+    margin-left: 48%;
+}
+
+#menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#cfb645;
+    color: #ffffff;
+    width: 100%;   
+}
+
+#menu li{
+    float: left;
+}
+
+#menu li a{
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    margin-left: 120px;
+    border-radius: 10%;
+    
+}
+
+#menu li a:hover{
+    color: #a71313;
+}

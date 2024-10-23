@@ -1,0 +1,404 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #000000;
+    margin: 0%;
+
+}
+
+#faixa{
+    width: 100%;
+    background-color: #a71313; 
+    padding: 1%;
+}
+
+#logo{
+    width: 5%;
+    margin-left: 48%;
+}
+
+#menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#cfb645;
+    color: #ffffff;
+    width: 100%;   
+}
+
+#menu li{
+    float: left;
+}
+
+#menu li a{
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    margin-left: 120px;
+    border-radius: 10%;
+    
+}
+
+#menu li a:hover{
+    color: #a71313;
+}
+
+h1{
+  text-align: center;
+    color: white;
+    font-size: 4vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 4vh;
+   
+  }
+  body{
+    background-color: #A71313;
+  }
+  .card {
+    position: relative;
+    width: 31vh;
+    height: 26vh;
+    background-color: #f2f2f2;
+    border-radius: 1vh;
+    display: inline-block ;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 100vh;
+    box-shadow: 0 0 0 0.5vh #ffffff80;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-image: url("/imagens/filme1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5vh; /* Espaço entre as imagens*/
+  }
+  
+  .card__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #cfb645;
+    transform: rotateX(-90deg);
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  .card:hover .card__content {
+    transform: rotateX(0deg);
+  }
+  .card__title {
+    margin: 0;
+    font-size: 24px;
+    color: #333; /*cor do title*/
+    
+    font-weight: 700;
+  }
+  .card:hover svg {
+    scale: 0;
+  }
+  .card__description {
+    margin: 1vh 0 0;
+    font-size: 14px;
+    color: #777; /* cor do texto */
+    line-height: 1.4;
+  }
+  
+  /*Card 2 */
+  
+  .card2{
+    position: relative;
+    width: 31vh;
+    height: 26vh;
+    background-color: #f2f2f2;
+    border-radius: 1vh;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 100vh;
+    box-shadow: 0 0 0 0.5vh #ffffff80;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-image: url("/imagens/filme2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5vh; /* Tamanho entre as imagens */
+  }
+  .card2:hover .card__content {
+    transform: rotateX(0deg);
+  }
+  
+  /*Card 3 */
+  
+  .card3{
+    position: relative;
+    width: 31vh;
+    height: 26vh;
+    background-color: #f2f2f2;
+    border-radius: 1vh;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 100vh;
+    box-shadow: 0 0 0 0.5vh #ffffff80;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-image: url("/imagens/filme3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5vh; /* Tamanho entre as imagens */
+  }
+  .card3:hover .card__content {
+    transform: rotateX(0deg);
+  }
+  
+  /*Card 4 */
+  
+  .card4{
+    position: relative;
+    width: 31vh;
+    height: 26vh;
+    background-color: #f2f2f2;
+    border-radius: 1vh;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 100vh;
+    box-shadow: 0 0 0 0.5vh #ffffff80;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-image: url("/imagens/filme4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5vh; /* Tamanho entre as imagens */
+  }
+  .card4:hover .card__content {
+    transform: rotateX(0deg);
+  }
+  
+  /*Card 5 */
+  
+  .card5{
+    position: relative;
+    width: 31vh;
+    height: 26vh;
+    background-color: #f2f2f2;
+    border-radius: 1vh;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 100vh;
+    box-shadow: 0 0 0 0.5vh #ffffff80;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-image: url("/imagens/senai1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5vh; /* Tamanho entre as imagens */
+  }
+  .card5:hover .card__content {
+    transform: rotateX(0deg);
+  }
+  
+  /*Card 6 */
+  
+  .card6{
+    position: relative;
+    width: 31vh;
+    height: 26vh;
+    background-color: #f2f2f2;
+    border-radius: 1vh;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 100vh;
+    box-shadow: 0 0 0 0.5vh #ffffff80;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-image: url("/imagens/senai2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5vh; /* Tamanho entre as imagens */
+  }
+  .card6:hover .card__content {
+    transform: rotateX(0deg);
+  }
+  /*Card 7 */
+  
+  .card7{
+    position: relative;
+    width: 31vh;
+    height: 26vh;
+    background-color: #f2f2f2;
+    border-radius: 1vh;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 100vh;
+    box-shadow: 0 0 0 0.5vh #ffffff80;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-image: url("/imagens/senai3.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5vh; /* Tamanho entre as imagens */
+  }
+  .card7:hover .card__content {
+    transform: rotateX(0deg);
+  }
+  /*Card 8 */
+  
+  .card8{
+    position: relative;
+    width: 31vh;
+    height: 26vh;
+    background-color: #f2f2f2;
+    border-radius: 1vh;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 100vh;
+    box-shadow: 0 0 0 0.5vh #ffffff80;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-image: url("/imagens/senai4.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5vh; /* Tamanho entre as imagens */
+  }
+  .card8:hover .card__content {
+    transform: rotateX(0deg);
+  }
+  
+  /*Card 9 */
+  
+  .card9{
+    position: relative;
+    width: 31vh;
+    height: 26vh;
+    background-color: #f2f2f2;
+    border-radius: 1vh;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 100vh;
+    box-shadow: 0 0 0 0.5vh #ffffff80;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-image: url("/imagens/palestra1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5vh; /* Tamanho entre as imagens */
+  }
+  .card9:hover .card__content {
+    transform: rotateX(0deg);
+  }
+  
+  /*Card 10 */
+  
+  .card10{
+    position: relative;
+    width: 31vh;
+    height: 26vh;
+    background-color: #f2f2f2;
+    border-radius: 1vh;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 100vh;
+    box-shadow: 0 0 0 0.5vh #ffffff80;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-image: url("/imagens/palestra2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5vh; /* Tamanho entre as imagens */
+  }
+  .card10:hover .card__content {
+    transform: rotateX(0deg);
+  }
+  /*Card 11 */
+  
+  .card11{
+    position: relative;
+    width: 31vh;
+    height: 26vh;
+    background-color: #f2f2f2;
+    border-radius: 1vh;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 100vh;
+    box-shadow: 0 0 0 0.5vh #ffffff80;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-image: url("/imagens/palestra3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5vh; /* Tamanho entre as imagens */
+  }
+  .card11:hover .card__content {
+    transform: rotateX(0deg);
+  }
+  
+  /*Card 12 */
+  
+  .card12{
+    position: relative;
+    width: 31vh;
+    height: 26vh;
+    background-color: #f2f2f2;
+    border-radius: 1vh;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 100vh;
+    box-shadow: 0 0 0 0.5vh #ffffff80;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-image: url("/imagens/palestra4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5vh; /* Tamanho entre as imagens */
+  }
+  .card12:hover .card__content {
+    transform: rotateX(0deg);
+  }
+  
+  #footer{
+    background-color: #cfb645;
+    color: #000000;
+    padding-left: 5%;
+    padding-bottom: 1%;
+}
+
+#direitos{
+    text-align: center;
+}
+
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    flex-direction: column;
+    min-height: 100%;
+}
+
+footer {
+    margin-top: auto;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 80%;
+}

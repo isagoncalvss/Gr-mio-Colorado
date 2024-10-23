@@ -1,0 +1,91 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #000000;
+    margin: 0%;
+}
+
+#faixa{
+    width: 100%;
+    background-color: #a71313; 
+    padding: 1%;
+}
+
+#logo{
+    width: 5%;
+    margin-left: 48%;
+}
+
+#menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#cfb645;
+    color: #ffffff;
+    width: 100%;   
+}
+
+#menu li{
+    float: left;
+}
+
+#menu li a{
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    margin-left: 120px;
+    border-radius: 10%;
+    
+}
+
+#menu li a:hover{
+    color: #a71313;
+}
+
+#abacadastro {
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 22%;
+    background-color: #a71313;
+    color: white;
+    border-radius: 30px;
+    padding: 2%;
+}
+h2{
+    font-weight: 800;
+}
+input {
+    width: 340px;
+    height: 25px;
+    border-radius: 5px;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#enviar {
+    background-color: #cfb645;
+    color: #000000;
+    font-weight: bolder;
+}
+
+#enviar:hover {
+    background-color: #a71313;
+    border: 1px solid #cfb645;
+    color: #ffffff;
+}
+
+#footer{
+    background-color: #a71313;
+    color: #ffffff;
+    padding-left: 5%;
+    padding-bottom: 1%;
+}
+
+#direitos{
+    text-align: center;
+}
